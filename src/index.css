@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b8d0eb;
+}
+.container {
+  width: 34.375rem;
+  height: 34.375rem;
+  margin: 2rem auto;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  border: transparent;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #613dc1;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  gap: 0.5rem;
+  height: 100%;
+  align-items: center;
+  max-width: 50%;
+  padding: 0;
+}
+.logo img {
+  width: 2rem;
+  height: 1.6rem;
+}
+.logo-text {
+  font-size: large;
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 0.1rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.header-right {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: lightest;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.input-section {
+  padding: 2rem;
+  background-color: #fff;
+}
+.form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.text-box-1,
+.text-box-2 {
+  width: 14.375rem;
+  height: 2.1875rem;
+  border: 1px solid #613dc1;
+  border-radius: 0.5rem;
+  text-indent: 1rem;
+}
+.meme-button {
+  grid-column: 1/-1;
+  width: 29.8125rem;
+  height: 2.5rem;
+  border: transparent;
+  border-radius: 0.5rem;
+  background-color: #613dc1;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+::placeholder {
+  font-family: "Comfortaa", sans-serif;
+  color: #613dc1;
+}
+.image-container {
+  margin: 1.5rem auto;
+  width: 28rem;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+}
