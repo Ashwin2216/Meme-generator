@@ -91,8 +91,33 @@ body {
   margin: 1.5rem auto;
   width: 28rem;
   object-fit: cover;
+  position: relative;
 }
 
 img {
   width: 100%;
+}
+
+.meme-text {
+  color: white;
+  position: absolute;
+  margin: 15px 0;
+  left: 50%;
+  font-size: 3rem;
+  font-family: impact, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%);
+  padding: 0 15px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  width: 80%;
+}
+.meme-text-top {
+  top: 0;
+}
+.meme-text-bottom {
+  bottom: 0;
 }
